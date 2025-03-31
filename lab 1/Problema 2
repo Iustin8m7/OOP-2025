@@ -1,0 +1,35 @@
+//PROBLEMA 2
+
+//#define _CRT_SECURE_NO_WARNINGS
+//#include <iostream>
+//#include <cstring>
+//using namespace std;
+//int main()
+//{	
+//	printf("Introduceti o propozitie:");
+//	char s[100],*cuvinte[100],*p;
+//	fgets(s, sizeof(s), stdin);
+//	s[strlen(s) - 1] = NULL;
+//	int n = 0;
+//	
+//	p = strtok(s, " ");
+//	while (p)
+//	{
+//		cuvinte[n++] = p;
+//		p = strtok(NULL, " ");
+//
+//	}
+//
+//	for(int i=0;i<n-1;i++)
+//		for(int j=i+1;j<n;j++)
+//			if (strlen(cuvinte[i]) < strlen(cuvinte[j]) || (strlen(cuvinte[i]) == strlen(cuvinte[j]) && strcmp(cuvinte[i], cuvinte[j]) > 0))
+//			{
+//				char* aux = cuvinte[i];
+//				cuvinte[i] = cuvinte[j];
+//				cuvinte[j] = aux;
+//			}
+//
+//	for (int i = 0;i < n;i++)
+//		printf("%s\n", cuvinte[i]);
+//	return 0;
+//}
