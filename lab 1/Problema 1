@@ -1,0 +1,34 @@
+//PROBLEMA 1
+
+//#define _CRT_SECURE_NO_WARNINGS
+//#include <iostream>
+//#include <cstring>
+//using namespace std;
+//int main()
+//{
+//	FILE* fin = fopen("in.txt", "r");
+//
+//	if (fin == NULL)
+//	{
+//		printf("Eroare la deschiderea fisierului.");
+//		exit(1);
+//	}
+//
+//	int sum = 0;
+//	char c[50];
+//	for (int i = 0;i < 4;i++)
+//	{
+//		fgets(c, 50, fin);
+//		int x=0;
+//		for (int j = 0;j < strlen(c); j++)
+//		{	
+//			if(c[j]>='0' && c[j]<='9')
+//			x = x * 10 + c[j] - '0';
+//		}
+//		sum += x;
+//	}
+//
+//	printf("%d", sum);
+//	fclose(fin);
+//	return 0;
+//}
